@@ -556,13 +556,13 @@ input::placeholder{
         font-size: 18px;
     }
     
-    .filter-bar-choice {
+    .filter-bar-categories {
         display: flex;
         gap: 15px;
         flex-wrap: wrap;
     }
 
-    .filterbar-icons {
+    .filter-bar-categories .filters {
         display: flex;
         height: 35px;
         width: 34%;
