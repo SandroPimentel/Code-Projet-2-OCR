@@ -380,3 +380,71 @@ input::placeholder{
 .footer h4 {
     font-size: 18px;
 }
+
+/* Format Tablette */
+@media (max-width: 1024px) {
+    .search-icon-loop{
+        visibility: hidden;
+    }
+
+    .filter-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-subtitle {
+        font-size: 13px;
+    }
+
+    .activites-cards {
+        display: flex;
+        height: 270px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1 0 0;
+        border-radius: 20px;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+        width: 23%;
+    }
+    
+    .activites-cards img {
+        height: 200px;
+        flex-shrink: 0;
+        align-self: stretch;
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
