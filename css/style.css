@@ -302,3 +302,54 @@ input::placeholder{
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+/* Activités */
+
+.activites {
+    font-weight: 700;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.titre-activites {
+    font-size: 22px;
+
+}
+
+.frame-activites {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.activites-cards {
+    display: flex;
+    height: 439px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1 0 0;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    width: 23%;
+}
+
+.activites-cards img {
+    height: 380px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title-activites {
+    margin: 20px;
+    height: 40px;
+}
