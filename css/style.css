@@ -353,3 +353,30 @@ input::placeholder{
     margin: 20px;
     height: 40px;
 }
+
+
+/* Footer */
+.footer {
+    background-color: var(--main-bg-color);
+    width: calc(100% - 50px); 
+    margin-left: 50px; 
+    margin-bottom: -8px;
+}
+
+.row {
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.footer h4 {
+    font-size: 18px;
+}
